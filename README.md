@@ -42,4 +42,6 @@ Today we're going to learn how to play with objects a little. Because the data y
 
 #### Stretch Goals
 
-Coming soon!
+* Right now, you're likely displaying only the whatever whose property exactly matches the property you're searching for. Let's change that so that we display partial matches. For example, if one of your items has the `lastName` property "Zuckerburg", no one wants to write all of that. Make it so that they can write "Zuck", hit search, and get the same result.
+
+    If your user was searching for a unique number, this won't apply. But in that case, try changing things so you search by a string! It's a more fun challenge that way, anyway.
