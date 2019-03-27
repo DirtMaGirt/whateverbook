@@ -46,7 +46,7 @@ Today we're going to learn how to play with objects a little. Because the data y
 
     If your user was searching for a unique number, this won't apply. But in that case, try changing things so you search by a string! It's a more fun challenge that way, anyway.
 
-* If their search matches no result, print "No results found" (or whatever wording you'd prefer). For a stretch stretch goal, add a brief explanation of how your search works. For example, you could put a `ul` with the rules you're working with. (Which might change as we keep doing these stretch goals!) For example:
+* If their search matches no result, print "No results found" (or whatever wording you'd prefer). For a stretch stretch goal, add a brief explanation of how your search works. For example, you could put a `ul` with the rules you're working with. (And those rules might change as we keep doing these stretch goals!) For example:
 	* Names must match exactly.
 	* Your search is NOT case sensitive.
 
