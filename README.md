@@ -45,3 +45,13 @@ Today we're going to learn how to play with objects a little. Because the data y
 * Right now, you're likely displaying only the whatever whose property exactly matches the property you're searching for. Let's change that so that we display partial matches. For example, if one of your items has the `lastName` property "Zuckerburg", no one wants to write all of that. Make it so that they can write "Zuck", hit search, and get the same result.
 
     If your user was searching for a unique number, this won't apply. But in that case, try changing things so you search by a string! It's a more fun challenge that way, anyway.
+
+* If their search matches no result, print "No results found" (or whatever wording you'd prefer). For a stretch stretch goal, add a brief explanation of how your search works. For example, you could put a `ul` with the rules you're working with. (Which might change as we keep doing these stretch goals!) For example:
+	* Names must match exactly.
+	* Your search is NOT case sensitive.
+
+* Make the search results update as you type, instead of when you press the button. Then you can even get rid of the button!
+
+    How would we do this? Instead of launching our `search` function when on a `click` event, have the event fire when they type in the box.
+
+* 
