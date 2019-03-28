@@ -62,4 +62,6 @@ Today we're going to learn how to play with objects a little. Because the data y
 
     Although you could make a bunch of `if`s or a `switch` statement to figure out which field you're searching by, a cleaner and shorter way would be to use bracket notation. To recap how that works: you can say `obj[someStr]`, and if `someStr` holds `'author'`, we'll be looking at `obj['author']`, which, in dot-nation terms, is the same as `obj.author`. Do you see how you can use that? If not, someone near you probably can help!
 
-* pagination
+* What if we have too large a dataset for them to reasonably scroll through? We could use a technique called pagination: splitting the results between pages the user can click "Next" or "Previous" to display portion by portion. I'm sure you've seen this somewhere, but the Fangraphs [batting leaders of 2018 by WAR](https://www.fangraphs.com/leaders.aspx?pos=all&stats=bat&lg=all&qual=y&type=8&season=2018&month=0&season1=2018&ind=0&team=0&rost=0&age=0&filter=&players=0&sort=21,d) list is one such example.
+
+    How could we do this? You would need "Next" and "Previous" buttons with their own event listeners attached. But how do we keep track of what indices from our dataset to display? A good solution with where we're at is to use a global `currentPageStartIndex` variable (probably with a better name, but I'm just the idea man here), and grab a `slice` of our array of objects based on that and the number we want displayed on each page, incrementing or decrementing the variable when the user asks to see a different `slice`.
