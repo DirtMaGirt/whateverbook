@@ -46,6 +46,8 @@ Today we're going to learn how to play with objects a little. Because the data y
 
     If your user was searching for a unique number, this won't apply. But in that case, try changing things so you search by a string! It's a more fun challenge that way, anyway.
 
+* Make one of the properties of each of your whatevers an array of somethings. You might have to have a sub-sub-(sub-?)list to make this happen.
+
 * If you're not already returning ALL matching results, do that now! So if you have a "28 Days" entry and a "28 Days Later" entry, and someone types in "28" don't just return the first result, or someone intending to see an intense zombie movie will instead see a Sandra Bullock comedy. Print both to the screen!
 
 * If their search matches no result, print "No results found" (or whatever wording you'd prefer). For a stretch stretch goal, add a brief explanation of how your search works. For example, you could put a `ul` with the rules you're working with. (And those rules might change as we keep doing these stretch goals!) For example:
