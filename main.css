@@ -1,0 +1,11 @@
+div {
+    margin-bottom: 10px;
+    border: black;
+}
+
+#wrapper {
+    background: grey;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+}
