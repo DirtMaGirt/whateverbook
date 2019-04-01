@@ -6,6 +6,8 @@ div {
 #wrapper {
     background: grey;
     height: 40px;
-    width: 200px;
+    width: 100%;
     border: 2px solid black;
 }
+
+.userContent {}

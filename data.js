@@ -9,7 +9,7 @@ const data = [{
         Fun: false,
     },
     {
-        Name: 'Davy',
+        Name: 'Paul',
         Age: 34,
         Fun: false,
     }

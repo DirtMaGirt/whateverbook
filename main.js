@@ -13,23 +13,27 @@ function init() {
 
 function displayList(event) {
     event.preventDefault()
-    let i;
-    for (let i in data) {
-        console.log("user");
-        for (let j in data[i]) {
 
+    for (let i in data) {
+        for (let obj in data[i]) {
 
             function addElement() {
                 let divNew = document.createElement("div");
-                let divContent = document.createTextNode(data[i][j]);
+                let divContent = document.createTextNode(data[i][obj]);
                 divNew.appendChild(divContent);
-                let divBase = document.getElementById("wrapper");
-                document.body.insertBefore(divNew, divBase);
+                divNew.className = "userContent";
 
+                let divBase = document.getElementById("wrapper");
+                divBase.appendChild(divNew)
 
             }
             addElement()
         }
+
+
+
+
+
 
 
 
@@ -40,13 +44,34 @@ function displayList(event) {
 
 function searchList(event) {
     event.preventDefault()
-    let i;
-    for (let i in data) {
-        console.log("user");
-        for (let j in data[i]) {
-            console.log(" " + data[i][j]);
-        }
+    const searchTerm = document.querySelector('#search-input').value;
 
-    }
 
+    console.log(searchTerm)
+}
+
+document.getElementById("demo").innerHTML = ages.find(checkAdult);
+}
+
+
+
+
+
+
+
+// for (let i in data) {
+//     for (let obj in data[i]) {
+//         if (data[i][obj] === listItem) {
+//             let divNew = document.createElement("div");
+//             let divContent = document.createTextNode(data[i][obj]);
+//             divNew.appendChild(divContent);
+//             divNew.className = "userContent";
+//             let divBase = document.getElementById("wrapper");
+//             divBase.appendChild(divNew)
+//             console.log(data[i])
+}
+
+}
+
+}
 }
